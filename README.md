@@ -5,15 +5,23 @@ installer-Boot:
 
 ist noch Beta:
 Partitionierung muss noch einmal überarbeitet werden.
+
 In der jetztigen Version bitte nur mit leeren Festplatten ausführen.
+
 NFS mount ist eingebaut.
+
 CDrom/DVD sollte auch funktinieren (nicht weiter getestet)
+
 DHCP funktioniert nur mit 100MBit - Schnittstelle
 
-Kopiert die Datei auf eine Partition und startet diese.
+Kopiert die Datei rescue_pegasos2_314 auf eine Partition und startet diese.
+
 Boot-Beispiel:
 
+boot hd:0 rescue_pegasos2_314 (optional: console=ttyS0,115200)
+
 Ihr landet in einer Console dort könnt ihr den Installer starten.
+
 Eingabe:
 ./scripte/pegasos2_installer.sh
 
