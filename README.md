@@ -26,12 +26,17 @@ Eingabe:
 ./scripte/pegasos2_installer.sh
 
 Dort mountet ihr bitte erst eurer NFS Laufwerk.
-Ist es gemountet, könnt ihr eine Festplatte einrichten.
-Hier wird zurzeit daran gearbeitet, weil der Pegasos2 im gegensatz zum Efika NICHT von einer Fat31 Partition booten kann.
-Mein Ratschlag zur zeit:
 
-Eingabe bei vfat Partition: 200M 
+Ist es gemountet, könnt ihr eine Festplatte einrichten.
+
+Hier wird zurzeit daran gearbeitet, weil der Pegasos2 im gegensatz zum Efika NICHT von einer Fat32 Partition booten kann.
+
+Mein Ratschlag zur Zeit:
+
+Eingabe bei vfat Partition: 200M
+
 Swap: 2G
+
 RootFS grösser/gleich 4G
 
 Sollte Rest übrig sein bitte mit "NO" nicht partitionieren.
